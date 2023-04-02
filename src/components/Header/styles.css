@@ -1,0 +1,17 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 30px;
+    background-color: darkcyan;
+    color: white;
+}
+
+@media only screen and (max-width: 900px) {
+    header {
+        flex-direction: column;
+        justify-content: start;
+        align-items: center;
+    }
+}

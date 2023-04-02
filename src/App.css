@@ -1,4 +1,9 @@
 .App {
+  margin: 0;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  background-color: rgb(250, 249, 248);
   text-align: center;
 }
 
